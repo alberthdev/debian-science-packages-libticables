@@ -1,0 +1,19 @@
+Description: detect Debian GNU Hurd OS
+ Modifies configure.ac to allow it to detect the GNU Hurd OS.
+Author: Albert Huang <alberth.debian@gmail.com>
+Reviewed-by: Andreas B. Mundt <andi@debian.org>
+Forwarded: no
+Last-Update: 2013-08-07
+
+--- a/configure.ac
++++ b/configure.ac
+@@ -147,6 +147,9 @@
+   hppa*)                 ARCH="-D__LINUX__" ;;
+   i[[3456]]86-*-linux-*) ARCH="-D__I386__ -D__LINUX__" ;;
+   i[[3456]]86-*-hurd-*)  ARCH="-D__I386__ -D__LINUX__" ;;
++  i[[3456]]86-*-gnu-*)         ARCH="-D__I386__ -D__LINUX__" ;;
++  i[[3456]]86-*-k*bsd-gnu*-*)  ARCH="-D__I386__ -D__LINUX__" ;;
++  k*bsd-gnu*|gnu*)             ARCH="-D__LINUX__" ;;
+   i[[3456]]86-*-mingw*)  ARCH="-D__WIN32__ -D__MINGW32__" ;;
+   i[[3456]]86-apple-darwin*) ARCH="-D__I386__ -D__MACOSX__" ;;
+   x86_64-*-linux-*)      ARCH="-D__LINUX__" ;;

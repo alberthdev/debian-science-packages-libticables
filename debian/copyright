@@ -1,0 +1,103 @@
+This package was created by Romain LIEVIN <roms@tilp.info> in 2002.
+It was taken over by Krzysztof Burghardt <krzysztof@burghardt.pl>
+around 2007.  Since 2012 Albert Huang <alberth.debian@gmail.com>
+worked on the package.  It is now team-maintained in Debian-Science.
+
+It was downloaded from <http://lpg.ticalc.org/prj_tilp/>
+
+Upstream Authors:
+
+    Romain Liévin <roms@tilp.info>
+    Julien Blache <jb@jblache.org>
+    Kevin Kofler <Kevin@tigcc.ticalc.org>
+    Sylvain Garsault
+    Johannes Erdfelt <johannes@erdfelt.com>
+    Tyler Cassidy <tyler@tylerc.org>
+    Sascha Sommer <saschasommer@freenet.de>
+    Alex Ionescu <alex.ionescu@reactos.org>
+    Stephan Meyer <ste_meyer@web.de>
+    Daniel Drake <dsd@gentoo.org>
+
+Additional contributions by Jon Sturm <jonimoose@gmail.com>,
+Benjamin Moody <benjamin.moody@gmail.com>, Lionel Debroux
+<lionel_debroux@yahoo.fr> and countless others that have not been
+named here, but whose contributions are valuable and are very much
+appreciated.
+
+The current upstream maintainer is Lionel Debroux <lionel_debroux@yahoo.fr>.
+
+Copyright:
+
+    Copyright © 1999-2007 Romain Li.vin
+    Copyright © 2001 Julien Blache
+    Copyright © 2002-2007 Kevin Kofler
+    Copyright © 2003 Sylvain Garsault
+    Copyright © 2003 ETC s.r.o.
+    Copyright © 2000-2003 Johannes Erdfelt
+    Copyright © 2004 Sascha Sommer
+    Copyright © 2002-2005 Stephan Meyer
+    Copyright © 2006 Tyler Cassidy
+    Copyright © 2007 ReactOS Foundation
+    Copyright © 2007-2008 Daniel Drake
+
+License (except files specified below):
+    As a special exception, the authors give permission to link the code of the
+    libticables2 library with TilEm (http://lpg.ticalc.org/prj_tilem) and the
+    code derived from Marcel De Kogel's z80em
+    (http://www.komkon.org/~dekogel/misc.html) it includes, and distribute linked
+    combinations including the two. You must obey the GNU General Public License
+    in all respects for all of the code used other than the z80em-derived code in
+    TilEm. If you modify this library, you may extend this exception to your
+    version of the library, but you are not obligated to do so. If you do not
+    wish to do so, delete this exception statement from your version.
+
+    This exception does NOT apply to the dhahelper.sys and rwports.sys drivers.
+
+    ------------------------------------------------------------------------------
+
+    This package is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+Copyright (src/gettext.h):
+
+    Copyright (C) 1995-1998, 2000-2002, 2004 Free Software Foundation, Inc.
+
+License (src/gettext.h):
+
+   This program is free software; you can redistribute it and/or modify it
+   under the terms of the GNU Library General Public License as published
+   by the Free Software Foundation; either version 2, or (at your option)
+   any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+   Library General Public License for more details.
+
+   You should have received a copy of the GNU Library General Public
+   License along with this program; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301,
+   USA.
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL-2'.
+On Debian systems, the complete text of the GNU Library General
+Public License can be found in `/usr/share/common-licenses/LGPL-2'.
+
+The Debian packaging is:
+© 2002-2009 Romain Liévin <roms@tilp.info>,
+© 2009 Krzysztof Burghardt <krzysztof@burghardt.pl>,
+© 2012 Albert Huang <alberth.debian@gmail.com>,
+© 2013 Andreas B. Mundt <andi@debian.org>.
+It is licensed under the GPL (see above).
