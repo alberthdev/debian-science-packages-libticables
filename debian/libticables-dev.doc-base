@@ -1,0 +1,11 @@
+Document: ticables-library-documentation
+Title: TiCables-2 Library Documentation
+Author: Romain Liévin <roms@tilp.info>
+        The TiLP team <tilp-users@lists.sf.net>
+Abstract: This manual documents the libticables C API for developers that wish to
+ use the libticables API in their application.
+Section: Programming/C
+
+Format: HTML
+Index: /usr/share/doc/libticables-dev/html/index.html
+Files: /usr/share/doc/libticables-dev/html/*.html

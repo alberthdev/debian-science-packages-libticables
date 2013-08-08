@@ -1,6 +1,7 @@
 libticables (1.3.4+dfsg-1) UNRELEASED; urgency=low
 
-  [ Albert Huang ]
+  * Team maintained in Debian-Science now. (Closes: #678828)
+  * New upstream release.
   * Fixed typo that prevented connection between the calculator and the PC
     with a TI-Graph Link cable in src/linux/link_gry.c. (Closes: #616731)
   * Updated udev rules to remove the group requirement and add serial
@@ -17,10 +18,6 @@ libticables (1.3.4+dfsg-1) UNRELEASED; urgency=low
     bumped debian/compat to 9 and updated debhelper version to 9.
     (Closes: #664405)
   * Bumped Standards-Version to 3.9.4.
-
-  [ Andreas B. Mundt ]
-  * Team maintained in Debian-Science now. (Closes: #678828)
-  * New upstream release.
 
  -- Andreas B. Mundt <andi@debian.org>  Wed, 07 Aug 2013 10:28:15 +0200
 

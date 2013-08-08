@@ -13,16 +13,18 @@ Build-Depends: autopoint,
 Standards-Version: 3.9.4
 Section: libs
 Homepage: http://lpg.ticalc.org/prj_tilp/
-Vcs-Git: git://git.debian.org/git/debian-science/packages/libticables.git
-Vcs-Browser: http://git.debian.org/?p=debian-science/packages/libticables.git
+Vcs-Git: git://anonscm.debian.org/debian-science/packages/libticables.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=debian-science/packages/libticables.git
 
 Package: libticables-dev
 Section: libdevel
 Architecture: any
+Multi-Arch: same
 Depends: libglib2.0-dev,
          libticables2-6 (= ${binary:Version}),
          pkg-config,
          ${misc:Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Description: Texas Instruments link cables library [development files]
  The libticables is a library providing support for operations on Texas
  Instruments calculators link cables. All link cables are supported read/write.
@@ -31,12 +33,12 @@ Description: Texas Instruments link cables library [development files]
  required headers and documentation.
 
 Package: libticables2-6
-Section: libs
 Architecture: any
+Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Pre-Depends: ${misc:Pre-Depends}
-Conflicts: libticables, libticables2-1, libticables3
 Replaces: libticables2-1
+Conflicts: libticables2-1
 Description: Texas Instruments link cables library
  The libticables is a library providing support for operations on Texas
  Instruments calculators link cables. All link cables are supported read/write.
@@ -46,8 +48,10 @@ Description: Texas Instruments link cables library
 Package: libticables2-dbg
 Section: debug
 Architecture: any
+Multi-Arch: same
 Priority: extra
 Depends: libticables2-6 (= ${binary:Version}), ${misc:Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Description: Texas Instruments link cables library [debugging symbols]
  The libticables is a library providing support for operations on Texas
  Instruments calculators link cables. All link cables are supported read/write.
