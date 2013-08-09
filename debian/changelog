@@ -1,25 +1,25 @@
-libticables (1.3.4+dfsg-1) UNRELEASED; urgency=low
+libticables (1.3.4+dfsg-1) unstable; urgency=low
 
-  * Team maintained in Debian-Science now. (Closes: #678828)
+  * Team maintained in Debian-Science now (closes: #678828).
+    Modifications in cooperation with Albert Huang
+    <alberth.debian@gmail.com>, thanks!
   * New upstream release.
-  * Fixed typo that prevented connection between the calculator and the PC
-    with a TI-Graph Link cable in src/linux/link_gry.c. (Closes: #616731)
-  * Updated udev rules to remove the group requirement and add serial
-    and parallel device support. (Closes: #589752)
-  * Updated copyright information.
-  * Created a debug package to provide debugging symbols.
-  * Added support for multiarch.
+  * Fix typo that prevented connection between calculator and PC with a
+    TI-Graph Link cable in 'src/linux/link_gry.c' (closes: #616731).
+  * Update udev rules to remove the group requirement and add serial
+    and parallel device support (closes: #589752).
+  * Update copyright information.
+  * Create a debug package to provide debugging symbols.
+  * Add support for multiarch.
   * Removed deprecated patches for BSD and SH4 building.
-  * Fixed FTBFS on s390x. (Closes: #641092)
-  * Fixed FTBFS on sparc64. (Closes: #596601)
-  * Fixed FTBFS on GNU Hurd.
-  * Added debian/watch to enable upstream update tracking.
-  * Updated to packaging format 3.0, removed deprecated dpatch dependency,
-    bumped debian/compat to 9 and updated debhelper version to 9.
-    (Closes: #664405)
-  * Bumped Standards-Version to 3.9.4.
+  * Fixed FTBFS on s390x (closes: #641092), sparc64 (closes: #596601) and
+    on GNU Hurd.
+  * Add 'debian/watch' to enable upstream release tracking.
+  * Switch to packaging format 3.0 (quilt).
+  * Bump 'debian/compat' to 9 (closes: #664405).
+  * Bump Standards-Version to 3.9.4.
 
- -- Andreas B. Mundt <andi@debian.org>  Wed, 07 Aug 2013 10:28:15 +0200
+ -- Andreas B. Mundt <andi@debian.org>  Fri, 09 Aug 2013 20:40:41 +0200
 
 libticables (1.2.0-2) unstable; urgency=low
 
