@@ -1,3 +1,11 @@
+libticables (1.3.4+dfsg-3) unstable; urgency=low
+
+  * Apply patch from Ubuntu to fix building on arm64 (closes: #727679).
+    Thanks to Adam Conrad <adconrad@debian.org> and Matthias Klose
+    <doko@ubuntu.com>.
+
+ -- Andreas B. Mundt <andi@debian.org>  Fri, 22 Nov 2013 21:11:33 +0100
+
 libticables (1.3.4+dfsg-2) unstable; urgency=low
 
   * Fix udev rules to allow non-root to access the device.  Tested with a

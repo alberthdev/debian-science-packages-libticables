@@ -1,0 +1,15 @@
+Description: Add arm64 to the arch table in configure.ac
+Author: Adam Conrad <adconrad@ubuntu.com>
+Forwarded: no
+Last-Update: 2013-11-22
+
+--- a/configure.ac
++++ b/configure.ac
+@@ -141,6 +141,7 @@ dnl AC_CANONICAL_HOST
+ case "$host" in
+   i[[3456]]86-*-*bsd*)   ARCH="-D__BSD__ -D__I386__" ;;
+   *-*-*bsd*)             ARCH="-D__BSD__" ;;
++  aarch64-*-linux-*)     ARCH="-D__LINUX__" ;;
+   alpha*-*-linux-*)      ARCH="-D__ALPHA__ -D__LINUX__" ;;
+   alpha*-*-*-*)          ARCH="-D__ALPHA__ -D__LINUX__" ;;
+   arm*-*-linux-*)        ARCH="-D__ARM__ -D__LINUX__" ;;
