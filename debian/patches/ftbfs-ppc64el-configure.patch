@@ -1,0 +1,18 @@
+Description: Fix ftbfs on ppc64el.
+ Modifies configure.ac to fix ftbfs on ppc64el.
+Author: Fernando Seiti Furusato <ferseiti@br.ibm.com>
+Reviewed-by: Andreas B. Mundt <andi@debian.org>
+Forwarded: no
+Last-Update: 2014-08-05
+
+--- a/configure.ac
++++ b/configure.ac
+@@ -160,7 +160,7 @@
+   mips-*-linux-*)        ARCH="-D__MIPS__ -D__LINUX__" ;;
+   mipsel-*-linux-*)      ARCH="-D__MIPS__ -D__LINUX__" ;;
+   powerpc-*-linux-*)     ARCH="-D__PPC__  -D__LINUX__" ;;
+-  powerpc64-*-linux-*)   ARCH="-D__PPC__  -D__LINUX__" ;;
++  powerpc64*-*-linux-*)  ARCH="-D__PPC__  -D__LINUX__" ;;
+   powerpc-apple-darwin*) ARCH="-D__PPC__  -D__MACOSX__" ;;
+   powerpc64-apple-darwin*) ARCH="-D__PPC__  -D__MACOSX__" ;;
+   s390*-*-linux-*)       ARCH="-D__LINUX__" ;;
