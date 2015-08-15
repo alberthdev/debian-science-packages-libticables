@@ -1,0 +1,19 @@
+Description: Fix ftbfs on mips64el.
+ Modifies configure.ac to fix ftbfs on mips64el.
+Author: James Cowgill <james410@cowgill.org.uk>
+Reviewed-by: Andreas B. Mundt <andi@debian.org>
+Forwarded: no
+Last-Update: 2015-08-15
+
+--- a/configure.ac
++++ b/configure.ac
+@@ -157,8 +157,7 @@
+   x86_64-apple-darwin*)  ARCH="-D__MACOSX__" ;;
+   ia64-*-linux-*)        ARCH="-D__LINUX__" ;;
+   m68k-*-linux-*)        ARCH="-D__M68K__ -D__LINUX__" ;;
+-  mips-*-linux-*)        ARCH="-D__MIPS__ -D__LINUX__" ;;
+-  mipsel-*-linux-*)      ARCH="-D__MIPS__ -D__LINUX__" ;;
++  mips*-*-linux-*)       ARCH="-D__MIPS__ -D__LINUX__" ;;
+   powerpc-*-linux-*)     ARCH="-D__PPC__  -D__LINUX__" ;;
+   powerpc64*-*-linux-*)  ARCH="-D__PPC__  -D__LINUX__" ;;
+   powerpc-apple-darwin*) ARCH="-D__PPC__  -D__MACOSX__" ;;

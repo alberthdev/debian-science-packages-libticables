@@ -1,3 +1,4 @@
 ftbfs-gnuhurd-configure.patch
 aarch64-linux-gnu.patch
 ftbfs-ppc64el-configure.patch
+ftbfs-mips64el-configure.patch
