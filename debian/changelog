@@ -1,9 +1,9 @@
-libticables (1.3.4+dfsg-6) UNRELEASED; urgency=medium
+libticables (1.3.4+dfsg-6) unstable; urgency=medium
 
   * Bump Standards-Version to 3.9.8 (no changes needed).
   * Switch to secure URI for vcs-field.
 
- -- Andreas B. Mundt <andi@debian.org>  Thu, 01 Dec 2016 19:48:24 +0300
+ -- Andreas B. Mundt <andi@debian.org>  Thu, 01 Dec 2016 19:56:02 +0300
 
 libticables (1.3.4+dfsg-5) unstable; urgency=medium
 
